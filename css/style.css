@@ -30,6 +30,9 @@ li {
         max-width: 1140px;
     }
 }
+.header__block{
+    display: flex;
+}
 .header__logo{
     font-size: 26px;
     font-family: 'Raleway Regular';
@@ -40,4 +43,13 @@ li {
 }
 .header__logo span{
     color: #2196F3;
+}
+.header__menu{
+   margin-top: 32px;
+}
+.header__menu li{
+    display: inline;
+}
+.header__menu a{
+    text-decoration: none;
 }
