@@ -553,7 +553,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 16px;
 line-height: 20px;
-padding: 15px 175px 15px 16px;
+padding: 15px 165px 15px 16px;
 text-align: start;
 
 display: flex;
@@ -587,4 +587,7 @@ color: rgba(255, 255, 255, 0.6);
 }
 .btn__footer:hover{
     background-color: #188CE8;
+}
+.icon__telegram{
+    font-size: 26px;
 }
