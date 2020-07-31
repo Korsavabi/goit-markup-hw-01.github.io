@@ -48,3 +48,34 @@
 		url('relewey/Raleway-SemiBold/fonts/raleway_semibold.ttf') format('truetype'), /* Safari, Android, iOS */
 		url('relewey/Raleway-SemiBold/fonts/raleway_semibold.svg#raleway_semibold') format('svg'); /* Chrome < 4, Legacy iOS */
 }
+
+/* Roboto Regular */
+@font-face {
+	font-family: 'Roboto Regular';
+	src: url('roboto/Roboto Regular/fonts/roboto_regular.eot'); /* IE 9 Compatibility Mode */
+	src: url('roboto/Roboto Regular/fonts/roboto_regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('roboto/Roboto Regular/fonts/roboto_regular.woff2') format('woff2'), /* Super Modern Browsers */
+		url('roboto/Roboto Regular/fonts/roboto_regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('roboto/Roboto Regular/fonts/roboto_regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('roboto/Roboto Regular/fonts/roboto_regular.svg#roboto_regular') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+/* Roboto Bold */
+@font-face {
+	font-family: 'Roboto Bold';
+	src: url('roboto/Roboto Bold/fonts/roboto_bold.eot'); /* IE 9 Compatibility Mode */
+	src: url('roboto/Roboto Bold/fonts/roboto_bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('roboto/Roboto Bold/fonts/roboto_bold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('roboto/Roboto Bold/fonts/roboto_bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('roboto/Roboto Bold/fonts/roboto_bold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('roboto/Roboto Bold/fonts/roboto_bold.svg#roboto_bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+/* Roboto Italic */
+@font-face {
+	font-family: 'Roboto Italic';
+	src: url('roboto/Roboto Italic/fonts/roboto_italic.eot'); /* IE 9 Compatibility Mode */
+	src: url('roboto/Roboto Italic/fonts/roboto_italic.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('roboto/Roboto Italic/fonts/roboto_italic.woff2') format('woff2'), /* Super Modern Browsers */
+		url('roboto/Roboto Italic/fonts/roboto_italic.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('roboto/Roboto Italic/fonts/roboto_italic.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('roboto/Roboto Italic/fonts/roboto_italic.svg#roboto_italic') format('svg'); /* Chrome < 4, Legacy iOS */
+}
