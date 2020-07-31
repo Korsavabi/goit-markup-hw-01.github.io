@@ -72,6 +72,7 @@ li {
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #212121;
+    transition: 2s;
 }
 .header__menu a:hover, .header__menu a:focus{
     color: #2196F3;
@@ -135,6 +136,7 @@ li {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    transition: 3s;
 
     background-color: #2196F3;
     padding: 10px 32px;
@@ -328,24 +330,28 @@ color: #757575;
     padding: 12px 14px;
     margin-right: 10px;
     border-radius: 50px;
+    transition: 1s;
 }
 .icon__twitter{
     color: #AFB1B8;
     padding: 12px 12px;
     margin-right: 10px;
     border-radius: 50px;
+    transition: 1s;
 }
 .icon__facebook{
     color: #AFB1B8;
     padding: 12px 16px;
     margin-right: 10px;
     border-radius: 50px;
+    transition: 1s;
 }
 .icon__linkedin{
 
     color: #AFB1B8;
     padding: 12px 14px;
     border-radius: 50px;
+    transition: 1s;
 }
 .icon__instagram:hover{
     color: #ffffff;
@@ -396,6 +402,7 @@ height: 90px;
 margin: auto;
 text-align: center;
 padding-top: 20px;
+transition: 2s;
 }
 .clients__card:hover {
     border: 1px solid #2196F3;
@@ -489,6 +496,7 @@ color: #FFFFFF;
     padding: 12px 14px;
     margin-right: 10px;
     border-radius: 50px;
+    transition: 1s;
 }
 .social__twitter{
     background: rgba(255, 255, 255, 0.1);
@@ -496,6 +504,7 @@ color: #FFFFFF;
     padding: 12px 12px;
     margin-right: 10px;
     border-radius: 50px;
+    transition: 1s;
 }
 .social__facebook{
     background: rgba(255, 255, 255, 0.1);
@@ -503,12 +512,14 @@ color: #FFFFFF;
     padding: 12px 16px;
     margin-right: 10px;
     border-radius: 50px;
+    transition: 1s;
 }
 .social__linkedin{
     background: rgba(255, 255, 255, 0.1);
     color: #ffffff;
     padding: 12px 14px;
     border-radius: 50px;
+    transition: 1s;
 }
 .social__instagram:hover{
     background-color: #2196F3;
