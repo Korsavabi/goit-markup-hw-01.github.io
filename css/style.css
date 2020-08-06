@@ -248,6 +248,7 @@ ul {
     .navbars .media__menu.active {
         display: block;
         background-color: #ffffff;
+        z-index: 6;
         width: 486.9px;
         position: absolute;
         left: -170px;
