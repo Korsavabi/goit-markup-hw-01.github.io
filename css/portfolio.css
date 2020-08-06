@@ -20,16 +20,16 @@
 
     border: none;
     padding: 6px 22px;
-    background-color: #f5f4fa;
+    background-color: var(--secondary-fone-color);
     border-radius: 4px;
     transition: 1s;
 
-    color: black;
+    color: var(--titles--text--color);
 }
 .filters button:hover,
 .filters button:focus {
-    color: #ffffff;
-    background-color: #2196f3;
+    color: var(--white-color);
+    background-color: var(--accent-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .portfolio__box {
@@ -42,8 +42,8 @@
 .project__block {
     width: 370px;
     overflow: hidden;
-    background: #ffffff;
-    border: 1px solid #eeeeee;
+    background: var(--white-color);
+    border: 1px solid var(--light-gray-project-color);
     margin-bottom: 30px;
     position: relative;
 }
@@ -72,7 +72,7 @@
 
     overflow: hidden;
     bottom: -100%;
-    background: rgba(33, 150, 243, 0.9);
+    background: var(--blue-blue-background-color);
     transition-property: bottom;
     transition-duration: 0.4s;
     transition-timing-function: ease-out;
@@ -81,7 +81,7 @@
     letter-spacing: 0.03em;
     
     margin: 0;
-    color: #ffffff;
+    color: var(--white-color);
 }
 .project__img {
     position: relative;
@@ -107,7 +107,7 @@
 
     letter-spacing: 0.06em;
 
-    color: #212121;
+    color: var(--titles--text--color);
 }
 .project__block-text p {
     font-family: "Roboto Light";
@@ -119,7 +119,7 @@
 
     letter-spacing: 0.03em;
 
-    color: #757575;
+    color: var(--text-color);
 }
 @media screen and (min-width: 750px) and (max-width: 1170px) {
     .portfolio__box{
