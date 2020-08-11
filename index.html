@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -19,23 +19,27 @@
                     <li><a href="index.html">Студия</a></li>
                     <li><a href="portfolio.html">Портфолио</a></li>
                     <li><a href="#">Контакты</a></li>
-                    <ul class="contact__menu">
-                        <li><a href="mailto: info@devstudio.com"><i class="far fa-envelope"></i> info@devstudio.com</a>
-                        </li>
-                        <li></i><a href="tel: +38 096 111 11 11"><i class="fas fa-mobile-alt"></i> +38 096 111 11 11</a>
-                        </li>
-                    </ul>
+                    <li>
+                        <ul class="contact__menu">
+                            <li><a href="mailto:info@devstudio.com"><i class="far fa-envelope"></i>
+                                    info@devstudio.com</a>
+                            </li>
+                            <li><a href="tel:+380961111111"><i class="fas fa-mobile-alt"></i> +38 096 111 11
+                                    11</a>
+                            </li>
+                        </ul>
+                    </li>
                 </ul>
             </nav>
             <nav class="navbars">
-                <button class="openMenu" id="openMenu"><i class="fas fa-bars burger-icon"></i></button>
+                <button type="button" class="openMenu" id="openMenu"><i class="fas fa-bars burger-icon"></i></button>
                 <ul class="media__menu" id="menu">
                     <li><a href="index.html">Студия</a></li>
                     <li><a href="portfolio.html">Портфолио</a></li>
                     <li><a href="#">Контакты</a></li>
-                    <li><a href="mailto: info@devstudio.com"><span class="contact__color-grey"><i
+                    <li><a href="mailto:info@devstudio.com"><span class="contact__color-grey"><i
                                     class="far fa-envelope"></i> info@devstudio.com</span></a></li>
-                    <li></i><a href="tel: +38 096 111 11 11"><span class="contact__color-grey"><i
+                    <li><a href="tel:+380961111111"><span class="contact__color-grey"><i
                                     class="fas fa-mobile-alt"></i> +38 096 111 11 11</span></a></li>
                 </ul>
             </nav>
@@ -44,20 +48,20 @@
     <section class="header__img ">
         <div class="container header__block-text">
             <h2>Эффективные решения <br> для вашего бизнеса</h2>
-            <button class="btn" data-modal-open>Заказать услугу</button>
-            <form action="" class="form backdrop is-hidden" data-modal>
+            <button type="button" class="btn" data-modal-open>Заказать услугу</button>
+            <form action="form" class="form backdrop is-hidden" data-modal>
                 <div class="modal">
-                    <button class="btn__clouse" data-modal-close>&#9587;</button>
+                    <button type="button" class="btn__clouse" data-modal-close>&#9587;</button>
                     <h3>Оставьте свои данные, мы вам перезвоним</h3>
                     <label for="form-name" class="form-field">
                         <span class="form__label">Имя</span>
                         <i class="fas fa-user-alt form-icon"></i>
-                        <input type="name" placeholder="Имя" required id="form-name" class="form-input">
+                        <input type="text" placeholder="Имя" required id="form-name" class="form-input">
                     </label>
                     <label for="form-tel" class="form-field">
                         <span class="form__label">Телефон</span>
                         <i class="fas fa-phone-alt form-icon"></i>
-                        <input type="tel" placeholder="Телефон" required id="form-tel" name="telephone"
+                        <input type="number" placeholder="Телефон" required id="form-tel" name="telephone"
                             class="form-input" />
                     </label>
                     <label for="form-email" class="form-field">
@@ -74,7 +78,7 @@
                         <p><input type="checkbox" id="form-checkbox" required class="form__checkbox"> Соглашаюсь с
                             рассылкой и принимаю <a href="#">Условия договора</a></p>
                     </label>
-                    <button class="btn btn-send">Отправить</button>
+                    <button type="button" class="btn btn-send">Отправить</button>
                 </div>
             </form>
         </div>
@@ -194,15 +198,15 @@
 
         <ul class="engage__box">
             <li class="engage__block">
-                <img src="img/what-are-we-doing/laptops.png" alt="" width="370px" height="294px">
+                <img src="img/what-are-we-doing/laptops.jpg" alt="" width="370" height="294">
                 <p class="engage__text">Десктопные приложения</p>
             </li>
             <li class="engage__block">
-                <img src="img/what-are-we-doing/phone.png" alt="" width="370px" height="294px">
+                <img src="img/what-are-we-doing/phone.jpg" alt="" width="370" height="294">
                 <p class="engage__text">Мобильные приложения</p>
             </li>
             <li class="engage__block">
-                <img src="img/what-are-we-doing/computer.png" alt="" width="370px" height="294px">
+                <img src="img/what-are-we-doing/computer.jpg" alt="" width="370" height="294">
                 <p class="engage__text">Дизайнерские решения</p>
             </li>
         </ul>
@@ -214,47 +218,63 @@
 
             <ul class="team">
                 <li class="team__card">
-                    <img class="team__photo" src="img/our-team/Nikolay-Kucherenko.jpg" alt="">
-                    <h2 class="team__title">Николай Кучеренко</h2>
-                    <p class="team__text">Product Designer</p>
+                    <img class="team__photo" src="img/our-team/Igor-Demyanenko.jpg" alt="" width="270" height="260">
+                    <h2 class="team__title">Игорь Демьяненко</h2>
+                    <p class="team__text" lang="en">Product Designer</p>
                     <ul class="team__icon">
-                        <li><a href="#"><i class="fab fa-instagram icon__instagram"></i></a></li>
-                        <li><a href="#"><i class="fab fa-twitter icon__twitter"></i></a></li>
-                        <li><a href="#"><i class="fab fa-facebook-f icon__facebook"></i></a></li>
-                        <li><a href="#"><i class="fab fa-linkedin-in icon__linkedin"></i></a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank" aria-label="ссылка на инстаграм"><i
+                                    class="fab fa-instagram icon__instagram"></i></a></li>
+                        <li><a href="https://twitter.com/?lang=ru" target="_blank" aria-label="ссылка на твитер"><i
+                                    class="fab fa-twitter icon__twitter"></i></a></li>
+                        <li><a href="https://www.facebook.com/" target="_blank" aria-label="ссылка на фейсбук"><i
+                                    class="fab fa-facebook-f icon__facebook"></i></a></li>
+                        <li><a href="https://www.linkedin.com/" target="_blank" aria-label="ссылка на линкедин"><i
+                                    class="fab fa-linkedin-in icon__linkedin"></i></a></li>
                     </ul>
                 </li>
                 <li class="team__card">
-                    <img class="team__photo" src="img/our-team/Olga-Ivanova.jpg" alt="">
-                    <h2 class="team__title">Ольга Иванова</h2>
-                    <p class="team__text">Frontend Developer</p>
+                    <img class="team__photo" src="img/our-team/Olga-Repina.jpg" alt="" width="270" height="260">
+                    <h2 class="team__title">Ольга Репина</h2>
+                    <p class="team__text" lang="en">Frontend Developer</p>
                     <ul class="team__icon">
-                        <li><a href=""><i class="fab fa-instagram icon__instagram"></i></a></li>
-                        <li><a href=""><i class="fab fa-twitter icon__twitter"></i></a></li>
-                        <li><a href=""><i class="fab fa-facebook-f icon__facebook"></i></a></li>
-                        <li><a href=""><i class="fab fa-linkedin-in icon__linkedin"></i></a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank" aria-label="ссылка на инстаграм"><i
+                                    class="fab fa-instagram icon__instagram"></i></a></li>
+                        <li><a href="https://twitter.com/?lang=ru" target="_blank" aria-label="ссылка на твитер"><i
+                                    class="fab fa-twitter icon__twitter"></i></a></li>
+                        <li><a href="https://www.facebook.com/" target="_blank" aria-label="ссылка на фейсбук"><i
+                                    class="fab fa-facebook-f icon__facebook"></i></a></li>
+                        <li><a href="https://www.linkedin.com/" target="_blank" aria-label="ссылка на линкедин"><i
+                                    class="fab fa-linkedin-in icon__linkedin"></i></a></li>
                     </ul>
                 </li>
                 <li class="team__card">
-                    <img class="team__photo" src="img/our-team/Andrey-Shevchenko.jpg" alt="">
-                    <h2 class="team__title">Андрей Шевченко</h2>
-                    <p class="team__text">Marketing</p>
+                    <img class="team__photo" src="img/our-team/Nikolay-Tarasov.jpg" alt="" width="270" height="260">
+                    <h2 class="team__title">Николай Тарасов</h2>
+                    <p class="team__text" lang="en">Marketing</p>
                     <ul class="team__icon">
-                        <li><a href=""><i class="fab fa-instagram icon__instagram"></i></a></li>
-                        <li><a href=""><i class="fab fa-twitter icon__twitter"></i></a></li>
-                        <li><a href=""><i class="fab fa-facebook-f icon__facebook"></i></a></li>
-                        <li><a href=""><i class="fab fa-linkedin-in icon__linkedin"></i></a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank" aria-label="ссылка на инстаграм"><i
+                                    class="fab fa-instagram icon__instagram"></i></a></li>
+                        <li><a href="https://twitter.com/?lang=ru" target="_blank" aria-label="ссылка на твитер"><i
+                                    class="fab fa-twitter icon__twitter"></i></a></li>
+                        <li><a href="https://www.facebook.com/" target="_blank" aria-label="ссылка на фейсбук"><i
+                                    class="fab fa-facebook-f icon__facebook"></i></a></li>
+                        <li><a href="https://www.linkedin.com/" target="_blank" aria-label="ссылка на линкедин"><i
+                                    class="fab fa-linkedin-in icon__linkedin"></i></a></li>
                     </ul>
                 </li>
                 <li class="team__card">
-                    <img class="team__photo" src="img/our-team/Ivan-Nikolaev.jpg" alt="">
-                    <h2 class="team__title">Иван Николаев</h2>
-                    <p class="team__text">UI Designer</p>
+                    <img class="team__photo" src="img/our-team/Mikhail-Ermakov.jpg" alt="" width="270" height="260">
+                    <h2 class="team__title">Михаил Ермаков</h2>
+                    <p class="team__text" lang="en">UI Designer</p>
                     <ul class="team__icon">
-                        <li><a href=""><i class="fab fa-instagram icon__instagram"></i></a></li>
-                        <li><a href=""><i class="fab fa-twitter icon__twitter"></i></a></li>
-                        <li><a href=""><i class="fab fa-facebook-f icon__facebook"></i></a></li>
-                        <li><a href=""><i class="fab fa-linkedin-in icon__linkedin"></i></a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank" aria-label="ссылка на инстаграм"><i
+                                    class="fab fa-instagram icon__instagram"></i></a></li>
+                        <li><a href="https://twitter.com/?lang=ru" target="_blank" aria-label="ссылка на твитер"><i
+                                    class="fab fa-twitter icon__twitter"></i></a></li>
+                        <li><a href="https://www.facebook.com/" target="_blank" aria-label="ссылка на фейсбук"><i
+                                    class="fab fa-facebook-f icon__facebook"></i></a></li>
+                        <li><a href="https://www.linkedin.com/" target="_blank" aria-label="ссылка на линкедин"><i
+                                    class="fab fa-linkedin-in icon__linkedin"></i></a></li>
                     </ul>
                 </li>
             </ul>
@@ -436,9 +456,9 @@
             <div class="footer__block">
                 <ul>
                     <li>г. Киев, пр-т Леси Украинки, 26</li>
-                    <li><a href="mailto: info@devstudio.com"><i class="far fa-envelope footer__icon"></i>
+                    <li><a href="mailto:info@devstudio.com"><i class="far fa-envelope footer__icon"></i>
                             info@devstudio.com</a></li>
-                    <li><a href="tel: +38 096 111 11 11"><i class="fas fa-mobile-alt footer__icon"></i> +38 096 111 11
+                    <li><a href="tel:+380961111111"><i class="fas fa-mobile-alt footer__icon"></i> +38 096 111 11
                             11</a>
                     </li>
                 </ul>
@@ -446,16 +466,20 @@
             <div class="social">
                 <p>присоединяйтесь</p>
                 <ul class="social__icon">
-                    <li><a href=""><i class="fab fa-instagram social__instagram"></i></a></li>
-                    <li><a href=""><i class="fab fa-twitter social__twitter"></i></a></li>
-                    <li><a href=""><i class="fab fa-facebook-f social__facebook"></i></a></li>
-                    <li><a href=""><i class="fab fa-linkedin-in social__linkedin"></i></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank" aria-label="ссылка на инстаграм"><i
+                                class="fab fa-instagram social__instagram"></i></a></li>
+                    <li><a href="https://twitter.com/?lang=ru" target="_blank" aria-label="ссылка на твитер"><i
+                                class="fab fa-twitter social__twitter"></i></a></li>
+                    <li><a href="https://www.facebook.com/" target="_blank" aria-label="ссылка на фейсбук"><i
+                                class="fab fa-facebook-f social__facebook"></i></a></li>
+                    <li><a href="https://www.linkedin.com/" target="_blank" aria-label="ссылка на линкедин"><i
+                                class="fab fa-linkedin-in social__linkedin"></i></a></li>
                 </ul>
             </div>
             <div class="e-mail__input">
                 <p>Подпишитесь на рассылку</p>
                 <input type="email" name="email" required placeholder=" E-mail">
-                <button href="#" class="btn__footer">Подписаться <i
+                <button type="button" class="btn__footer">Подписаться <i
                         class="fab fa-telegram-plane icon__telegram"></i></button>
             </div>
         </div>
