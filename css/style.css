@@ -6,7 +6,7 @@
     --white-color: #ffffff;
     --footer-background-color: #2f303a;
     --sochial-networks-background: rgba(255, 255, 255, 0.1);
-    --text-background: rgba(47, 48, 58, 0.4);
+    --text-background: rgba(47, 48, 58, 0.8);
     --team-label-background: #afb1b8;
 
     --line-light-gray-color: #ececec;
@@ -322,6 +322,8 @@ ul {
     text-align: center;
     letter-spacing: 0.06em;
 
+    cursor: pointer;
+
     transition: 3s;
 
     padding: 10px 32px;
@@ -359,6 +361,8 @@ ul {
     border: 1px solid rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
     border-radius: 50px;
+
+    cursor: pointer;
 
     font-family: "Roboto Black";
     font-weight: bold;
@@ -1119,6 +1123,8 @@ ul {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+
+    cursor: pointer;
 
     background-color: var(--accent-color);
     box-shadow: 0px 4px 4px var(--btn-box-shadow-light-black-color);

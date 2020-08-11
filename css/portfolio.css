@@ -18,6 +18,8 @@
     text-align: center;
     letter-spacing: 0.03em;
 
+    cursor: pointer;
+
     border: none;
     padding: 6px 22px;
     background-color: var(--secondary-fone-color);
