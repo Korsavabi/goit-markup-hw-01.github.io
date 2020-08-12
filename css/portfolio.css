@@ -45,7 +45,6 @@
     width: 370px;
     overflow: hidden;
     background: var(--white-color);
-    border: 1px solid var(--light-gray-project-color);
     margin-bottom: 30px;
     position: relative;
 }
@@ -57,20 +56,17 @@
     height: 168px;
     padding: 63px 24px;
     margin: auto;
-    overflow: hidden;
     position: absolute;
     vertical-align: top;
 
     z-index: 2;
-}
-.project__text-hover{
+
     font-family: "Roboto Light";
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 28px;
     position: absolute;
-    z-index: 4;
 
     overflow: hidden;
     bottom: -100%;
@@ -88,15 +84,19 @@
 .project__img{
     position: relative;
     overflow: hidden;
+    height: 294px;
 }
 .project__block:hover .project__text-hover{
-    bottom: 1%;
+    bottom: 0;
 }
 .project__block:hover{
     box-sizing: border-box;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .project__block-text {
+    
+    border: 1px  solid var(--light-gray-project-color);
+    border-top: 0;
     padding: 20px 24px;
 }
 .project__block-text h2{
