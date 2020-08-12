@@ -61,7 +61,7 @@
                     <label for="form-tel" class="form-field">
                         <span class="form__label">Телефон</span>
                         <i class="fas fa-phone-alt form-icon"></i>
-                        <input type="number" placeholder="Телефон" required id="form-tel" name="telephone"
+                        <input type="text" placeholder="Телефон" required id="form-tel" name="telephone"
                             class="form-input" />
                     </label>
                     <label for="form-email" class="form-field">
@@ -451,38 +451,41 @@
     </section>
     <!-- Подвал -->
     <footer class="footer__bg-color">
-        <div class="container basement">
-            <a href="index.html" class="footer__logo"><span>Web</span> Studio</a>
-            <div class="footer__block">
-                <ul>
+        <ul class="container basement">
+            <li class="footer__logo"> <a href="index.html" lang="en"><span>Web</span> Studio</a></li>
+            <li>
+                <ul class="footer__block">
                     <li>г. Киев, пр-т Леси Украинки, 26</li>
-                    <li><a href="mailto:info@devstudio.com"><i class="far fa-envelope footer__icon"></i>
+                    <li><a href="mailto:info@devstudio.com" lang="en"><i class="far fa-envelope footer__icon"></i>
                             info@devstudio.com</a></li>
-                    <li><a href="tel:+380961111111"><i class="fas fa-mobile-alt footer__icon"></i> +38 096 111 11
-                            11</a>
+                    <li><a href="tel:+380961111111"><i class="fas fa-mobile-alt footer__icon"></i> +38 096 111 11 11</a>
                     </li>
                 </ul>
-            </div>
-            <div class="social">
-                <p>присоединяйтесь</p>
-                <ul class="social__icon">
-                    <li><a href="https://www.instagram.com/" target="_blank" aria-label="ссылка на инстаграм"><i
-                                class="fab fa-instagram social__instagram"></i></a></li>
-                    <li><a href="https://twitter.com/?lang=ru" target="_blank" aria-label="ссылка на твитер"><i
-                                class="fab fa-twitter social__twitter"></i></a></li>
-                    <li><a href="https://www.facebook.com/" target="_blank" aria-label="ссылка на фейсбук"><i
-                                class="fab fa-facebook-f social__facebook"></i></a></li>
-                    <li><a href="https://www.linkedin.com/" target="_blank" aria-label="ссылка на линкедин"><i
-                                class="fab fa-linkedin-in social__linkedin"></i></a></li>
+            </li>
+            <li>
+                <ul class="social">
+                    <li><p>присоединяйтесь</p></li>
+                    <ul class="social__icon">
+                        <li><a href="https://www.instagram.com/" target="_blank" aria-label="ссылка на инстаграм"><i
+                                    class="fab fa-instagram social__instagram"></i></a></li>
+                        <li><a href="https://twitter.com/?lang=ru" target="_blank" aria-label="ссылка на твитер"><i
+                                    class="fab fa-twitter social__twitter"></i></a></li>
+                        <li><a href="https://www.facebook.com/" target="_blank" aria-label="ссылка на фейсбук"><i
+                                    class="fab fa-facebook-f social__facebook"></i></a></li>
+                        <li><a href="https://www.linkedin.com/" target="_blank" aria-label="ссылка на линкедин"><i
+                                    class="fab fa-linkedin-in social__linkedin"></i></a></li>
+                    </ul>
                 </ul>
-            </div>
-            <div class="e-mail__input">
-                <p>Подпишитесь на рассылку</p>
-                <input type="email" name="email" required placeholder=" E-mail">
-                <button type="button" class="btn__footer">Подписаться <i
-                        class="fab fa-telegram-plane icon__telegram"></i></button>
-            </div>
-        </div>
+            </li>
+            <li>
+                <ul class="e-mail__input">
+                    <li> <p>Подпишитесь на рассылку</p></li>
+                    <li> <input type="email" name="email" required placeholder=" E-mail"></li>
+                    <li> <button type="button" class="btn__footer">Подписаться <i
+                        class="fab fa-telegram-plane icon__telegram"></i></button></li>
+                </ul>
+            </li>
+        </ul>
     </footer>
     <script src="js/all.js"></script>
     <script src="js/modal.js"></script>
