@@ -731,6 +731,7 @@ ul {
     text-align: center;
     letter-spacing: 0.03em;
 
+    margin-top: 0;
     padding-top: 94px;
 
     color: var(--titles--text--color);
