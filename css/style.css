@@ -69,6 +69,7 @@ ul {
         max-width: 1170px;
     }
 }
+/* header */
 .header__line {
     border-bottom: 1px solid var(--line-light-gray-color);
 }
@@ -87,6 +88,7 @@ ul {
 
     margin: 0;
     margin-top: 24px;
+    margin-right: 85px;
 
     color: var(--titles--text--color);
 }
@@ -99,14 +101,11 @@ ul {
     flex-wrap: wrap;
 }
 .group__menu {
+    display: flex;
     margin-top: 32px;
 }
-.group__menu li {
-    display: inline;
-    padding-left: 48px;
-}
-.group__menu li:last-child{
-    padding: 0;
+.group__menu li:not(:last-child) {
+    margin-right: 50px;
 }
 .group__menu a {
     text-decoration: none;
@@ -128,17 +127,28 @@ ul {
     padding-bottom: 24px;
 }
 .contact__menu {
-    display: inline;
+    display: flex;
     text-align: end;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    margin-top: 32px;
+    margin-left: 231px;
     padding: 0;
 }
-.contact__menu li {
+.contact__menu a{
+    text-decoration: none;
+    font-family: "Roboto Regular";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--titles--text--color);
+    transition: 2s;
+
     padding-right: 30px;
-    margin-left: 231px;
+    
+
 }
-.contact__menu li:last-child {
+.contact__menu a:last-child {
     padding: 0;
     margin-left: 0;
 }
@@ -147,7 +157,6 @@ ul {
 }
 .contact__menu a:hover,
 .contact__menu a:focus {
-    border-bottom: none;
     color: var(--accent-color);
 }
 
@@ -202,12 +211,17 @@ ul {
         display: grid;
         text-align: start;
         position: absolute;
-        top: 21px;
+        top: 0;
         right: 15px;
-    }
-    .contact__menu li {
-        margin: 0;
+        margin-top: 21px;
         padding: 0;
+    }
+    .contact__menu a{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .contact__menu a:not(:last-child){
+        margin-bottom: 10px;
     }
     .group__menu li:nth-child(3) {
         margin-right: 30px;
@@ -238,7 +252,7 @@ ul {
         position: absolute;
         width: 50px;
         height: 50px;
-        left: 250px;
+        left: 150px;
         top: 15px;
     }
     .media__menu {
@@ -272,9 +286,9 @@ ul {
         display: block;
         background-color: var(--white-color);
         z-index: 6;
-        width: 486.9px;
+        width: 482px;
         position: absolute;
-        left: -170px;
+        left: -250px;
         border-top: 1px solid var(--line-light-gray-color);
     }
     .navbars .media__menu li {
