@@ -146,11 +146,8 @@
         font-size: 18px;
         line-height: 28px;
     }
-    .project__block:hover .project__text-hover{
-        bottom: 18%;
-    }
     .project__text-hover{
-        padding-top: 120px;
+        padding-top: 60px;
     }
     .filters button{
         margin-left: 8px;

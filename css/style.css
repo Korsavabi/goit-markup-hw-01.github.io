@@ -956,14 +956,16 @@ ul {
 .footer__bg-color {
     background-color: var(--footer-background-color);
 }
-.footer__logo {
+.footer__logo{
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.footer__logo a{
     font-family: "Raleway ExtraBold";
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
     line-height: 31px;
-    margin-top: 60px;
-    margin-bottom: 20px;
     text-decoration: none;
     letter-spacing: 0.03em;
 
@@ -974,7 +976,8 @@ ul {
 }
 .footer__block {
     position: absolute;
-    top: 110px;
+    top: 120px;
+    left: 0;
 }
 .footer__block li {
     font-family: "Roboto Regular";
@@ -1109,7 +1112,7 @@ ul {
 
 .btn__footer {
     position: absolute;
-    bottom: 85px;
+    bottom: 97px;
     right: 0;
     padding: 10px 29px;
 
@@ -1171,7 +1174,7 @@ ul {
     }
     .e-mail__input {
         text-align: center;
-        margin-top: 60px;
+        padding-top: 5px;
         margin-bottom: 130px;
     }
     .e-mail__input input {
@@ -1225,6 +1228,7 @@ ul {
         width: 450px;
         text-align: center;
         top: 320px;
+        left: 0;
     }
     .e-mail__input input {
         width: 450px;
