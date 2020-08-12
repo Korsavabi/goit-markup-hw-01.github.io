@@ -81,9 +81,9 @@
                             <textarea name="comment" placeholder="Комментарий" id="form-comment"
                                 class="form__comment"></textarea>
                         </label>
-                        <label for="form-checkbox" class="form-field form__checkbox">
-                            <p><input type="checkbox" id="form-checkbox" required class="form__checkbox"> Соглашаюсь с
-                                рассылкой и принимаю <a href="#">Условия договора</a></p>
+                        <label for="form-checkbox"  unselectable="on" user-select="on" class="form-field form__checkbox">
+                            <input type="checkbox" id="form-checkbox" required class="form__checkbox">
+                            Соглашаюсь с рассылкой и принимаю <a href="#">Условия договора</a>
                         </label>
                         <button type="button" class="btn btn-send">Отправить</button>
                     </div>
