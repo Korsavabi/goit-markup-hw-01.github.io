@@ -375,7 +375,7 @@ ul {
     color: var(--accent-color);
 }
 .btn-send {
-    margin: 0 164px 40px 164px;
+    margin: 10px 164px 30px 164px;
 }
 .modal {
     position: relative;
@@ -455,13 +455,16 @@ ul {
     float: left;
     padding: 12px 14px;
 }
-.form__checkbox p {
+.form__checkbox{
     margin: 0;
     font-family: "Roboto Bold";
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
+
+    user-select: none;
+    -webkit-user-select: none;
 
     letter-spacing: 0.03em;
 
@@ -523,7 +526,7 @@ ul {
         height: 120px;
     }
     .btn-send {
-        margin: 0 120px 40px 120px;
+        margin: 10px 120px 30px 120px;
     }
 }
 @media screen and (min-width: 320px) and (max-width: 750px) {
