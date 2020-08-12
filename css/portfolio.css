@@ -45,8 +45,10 @@
     width: 370px;
     overflow: hidden;
     background: var(--white-color);
-    margin-bottom: 30px;
     position: relative;
+}
+.project__block:not(:nth-last-child){
+    margin-bottom: 30px;
 }
 .project__img{
     z-index: 1;
