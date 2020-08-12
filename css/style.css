@@ -81,7 +81,7 @@ ul {
     font-size: 26px;
     font-family: "Raleway Regular";
     font-style: normal;
-    font-weight: bold;
+    font-weight: 900;
     line-height: 31px;
     letter-spacing: 0.03em;
     text-decoration: none;
@@ -972,6 +972,7 @@ ul {
     flex-wrap: wrap;
 }
 .footer__bg-color {
+    height: 254px;
     background-color: var(--footer-background-color);
 }
 .footer__logo{
@@ -1020,7 +1021,7 @@ ul {
     width: 206px;
     height: 80px;
     margin-top: 72px;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
     text-align: start;
 }
 .social p {
@@ -1130,7 +1131,7 @@ ul {
 
 .btn__footer {
     position: absolute;
-    bottom: 97px;
+    bottom: 5px;
     right: 0;
     padding: 10px 29px;
 

@@ -47,7 +47,7 @@
     background: var(--white-color);
     position: relative;
 }
-.project__block:not(:nth-last-child){
+.project__block:not(:nth-last-child(-3n+1)){
     margin-bottom: 30px;
 }
 .project__img{
