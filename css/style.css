@@ -94,7 +94,7 @@ ul {
     margin-top: 24px;
     margin-right: 85px;
 
-    color: var(--titles--text--color);
+    color: var(--titles-text-color);
 }
 .header__logo span {
     color: var(--accent-color);
